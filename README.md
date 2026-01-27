@@ -1,6 +1,8 @@
 # Selenium to Playwright Converter
 
-A premium web-based tool to convert TestNG Selenium Java tests into Playwright TypeScript/JavaScript.
+A premium web-based tool to convert TestNG Selenium Java tests into Playwright TypeScript/JavaScript using local AI.
+
+![Project Architecture](docs/assets/architecture_diagram.png)
 
 ## 🚀 Features
 
