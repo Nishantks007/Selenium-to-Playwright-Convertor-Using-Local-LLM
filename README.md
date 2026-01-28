@@ -58,20 +58,35 @@ npm install
 
 ## 🎯 Running the Application
 
-You need to run both the backend and frontend:
+### ⚡ Option 1: Automated Launch (Recommended for macOS)
+Use the provided launcher script to start everything with a single command. The script will:
+- Check if Ollama is running
+- Auto-install any missing dependencies
+- Start the Backend and Frontend processes
+- Automatically open the browser to `http://localhost:5173`
 
-### Terminal 1 - Backend Server
+```bash
+./run-app.sh
+```
+*To stop the application, simply press `Ctrl+C` in the terminal.*
+
+---
+
+### 🛠️ Option 2: Manual Start
+If you prefer to run services individually:
+
+**Terminal 1: Backend Server**
 ```bash
 node server/index.js
 ```
-Server will run on `http://localhost:3000`
+*Server runs on `http://localhost:3000`*
 
-### Terminal 2 - Frontend Dev Server
+**Terminal 2: Frontend Dev Server**
 ```bash
 cd client
 npm run dev
 ```
-Frontend will run on `http://localhost:5173`
+*Frontend runs on `http://localhost:5173`*
 
 ## 📖 Usage
 
